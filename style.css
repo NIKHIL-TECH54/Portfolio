@@ -427,7 +427,7 @@ footer{
 
 @media(max-width:968px){
     section{
-        padding: 8em 15%;
+        padding: 8em 10%;
     }
     nav .btn{
         display: none;
@@ -499,8 +499,16 @@ footer{
     
     }
     .box{
-        height: 90vh;
-        width: 30vh;
+        height: 75vh;
+        width: 35vh;
+    }
+    .project-container{
+        height: 310vh;
+        gap: 2em;
+        display: flex;
+    
+        flex-direction: column;
+    
     }
     .box img{
         width: 50vw;
@@ -509,9 +517,14 @@ footer{
         object-fit: cover;
     }
        
-    
+    .about-info{
+        padding: 0 3vw;
+    }
     #about .skills{
         gap: 3em;
+    }
+    .about-box h2 {
+        padding-left: 5vw;
     }
     #project .header{
         font-size: 3em;
